@@ -1,0 +1,8 @@
+- [x] Project requirements clarified: Next.js 14+, TypeScript, Tailwind, shadcn/ui, MDX, resume-based content, full portfolio spec.
+- [x] Project scaffolded: folders created for /app, /content, /public, /src/components, /src/lib, /src/styles, /src/config, .github.
+- [ ] Customize the Project: Add starter content, components, pages, and README as per spec.
+- [ ] Install Required Extensions: Will install only if specified in setup info.
+- [ ] Compile the Project: Will run build and check for errors after code and config are added.
+- [ ] Create and Run Task: Will add tasks.json if needed for build/lint/dev.
+- [ ] Launch the Project: Will prompt for debug mode if requested.
+- [ ] Ensure Documentation is Complete: Will update README and copilot-instructions.md after all steps.

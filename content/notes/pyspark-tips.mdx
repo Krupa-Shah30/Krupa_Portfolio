@@ -1,0 +1,18 @@
+---
+title: "PySpark tips for scalable data pipelines"
+slug: "pyspark-tips"
+summary: "Best practices for efficient PySpark workflows."
+tags: ["PySpark","Big Data"]
+published: "2025-08-23"
+---
+
+# PySpark Tips
+
+- Use `persist()` and `cache()` wisely to optimize memory.
+- Partition data for parallelism; avoid small files.
+- Prefer DataFrame API over RDDs for most tasks.
+- Monitor with Spark UI for bottlenecks.
+
+<Callout kind="warn">Check for data skew before running joins!</Callout>
+
+<Metric value="↓ 30% runtime" />

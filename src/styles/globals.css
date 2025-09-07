@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #1e293b;
+}
+
+.dark {
+  --background: #18181b;
+  --foreground: #f8fafc;
+}
+
+.focus-ring {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.shadow-soft {
+  box-shadow: 0 2px 8px rgba(30,41,59,0.08);
+}
