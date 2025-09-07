@@ -1,4 +1,4 @@
-# Kush (Krupa) Shah Portfolio
+# Krupa Shah Portfolio
 
 Production-ready Next.js 14+ portfolio for Data Science, Analytics, ML/AI roles.
 
