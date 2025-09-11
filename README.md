@@ -1,75 +1,71 @@
-# Krupa Shah Portfolio
+# Krupa Shah - Portfolio Website
 
-Production-ready Next.js 14+ portfolio for Data Science, Analytics, ML/AI roles.
+A modern, responsive portfolio website showcasing data analytics projects, work experience, and technical skills. Built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## Getting Started
+## 🚀 Features
 
-1. Install dependencies:
-   ```powershell
+- **Modern Design**: Clean, professional interface with dark/light mode support
+- **Responsive Layout**: Optimized for all device sizes
+- **Interactive Navigation**: Smooth routing with active page indicators  
+- **Project Showcase**: Detailed project cards with filtering and search
+- **MDX Blog**: Technical notes and articles with syntax highlighting
+- **Performance Optimized**: Fast loading with Next.js optimizations
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Content**: MDX with gray-matter for frontmatter
+- **Icons**: Custom SVG icons
+- **Deployment**: Ready for Vercel/Netlify
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Krupa-Shah30/Krupa_Portfolio.git
+   cd Krupa_Portfolio
+   ```
+
+2. **Install dependencies**
+   ```bash
    npm install
    ```
-2. Run locally:
-   ```powershell
+
+3. **Run the development server**
+   ```bash
    npm run dev
    ```
-3. Build for production:
-   ```powershell
-   npm run build
-   ```
-4. Lint & format:
-   ```powershell
-   npm run lint; npm run format
-   ```
-5. Typecheck:
-   ```powershell
-   npm run typecheck
-   ```
 
-## Add a New Project
-- Add a new `.mdx` file to `/content/projects/` with frontmatter:
-  ```mdx
-  ---
-  title: "Project Title"
-  slug: "project-slug"
-  summary: "Short summary."
-  tags: ["Tag1","Tag2"]
-  role: "Role"
-  timeline: "Year"
-  repo: "https://github.com/..."
-  demo: ""
-  stack: ["Tech1","Tech2"]
-  metrics:
-    - "Outcome 1"
-    - "Outcome 2"
-  hero_image: "/images/projects/project-slug/hero.png"
-  gallery:
-    - "/images/projects/project-slug/flow.png"
-  ---
-  {content}
-  ```
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Add a New Note
-- Add a new `.mdx` file to `/content/notes/` with frontmatter:
-  ```mdx
-  ---
-  title: "Note Title"
-  slug: "note-slug"
-  summary: "Short summary."
-  tags: ["Tag1","Tag2"]
-  published: "YYYY-MM-DD"
-  ---
-  {content}
-  ```
+## 📝 Available Scripts
 
-## Update Nav/Socials/Resume
-- Edit `/src/config/site.ts` for site metadata, nav links, and socials.
-- Place your resume at `/public/resume.pdf`.
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run format       # Format code with Prettier
+npm run typecheck    # Run TypeScript type checking
+```
 
-## Deploy to Vercel
-- Push to GitHub and import to Vercel.
-- Set build command: `npm run build` and output: `.next`
-- Add environment variables if needed.
+## 🚀 Deployment
 
----
+### Vercel (Recommended)
+1. Push to GitHub
+2. Connect repository to Vercel
+3. Deploy automatically
 
-For full spec, see `/README.md` and `/src/config/site.ts`.
+### Netlify
+1. Build the project: `npm run build`
+2. Deploy the `.next` folder to Netlify
+
+## 📧 Contact
+
+**Krupa Shah**
+- Email: kshah30@umd.edu
+- LinkedIn: [krupa-n-shah](https://www.linkedin.com/in/krupa-n-shah/)
+- GitHub: [Krupa-Shah30](https://github.com/Krupa-Shah30)
