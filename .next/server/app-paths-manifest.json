@@ -1,12 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/(site)/experience/page": "app/(site)/experience/page.js",
-  "/(site)/about/page": "app/(site)/about/page.js",
   "/(site)/notes/page": "app/(site)/notes/page.js",
-  "/(site)/page": "app/(site)/page.js",
   "/(site)/education/page": "app/(site)/education/page.js",
-  "/(site)/contact/page": "app/(site)/contact/page.js",
   "/(site)/resume/page": "app/(site)/resume/page.js",
-  "/(site)/skills/page": "app/(site)/skills/page.js",
-  "/(site)/projects/page": "app/(site)/projects/page.js"
+  "/(site)/about/page": "app/(site)/about/page.js",
+  "/(site)/contact/page": "app/(site)/contact/page.js",
+  "/(site)/experience/page": "app/(site)/experience/page.js",
+  "/(site)/page": "app/(site)/page.js",
+  "/(site)/projects/page": "app/(site)/projects/page.js",
+  "/(site)/skills/page": "app/(site)/skills/page.js"
 }

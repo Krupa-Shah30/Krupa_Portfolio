@@ -131,8 +131,8 @@ export default function HomePage() {
             ))}
           </div>
           <div className="flex gap-4 justify-center md:justify-start mb-4">
-            <a href="/projects" className="px-6 py-3 bg-gray-700 text-white rounded-2xl border border-black shadow-soft hover:bg-gray-800">View Projects</a>
-            <a href="/resume.pdf" target="_blank" className="px-6 py-3 bg-gray-700 text-white rounded-2xl border border-black shadow-soft hover:bg-gray-800">Download Resume</a>
+            <a href="/Krupa_Portfolio/projects" className="px-6 py-3 bg-gray-700 text-white rounded-2xl border border-black shadow-soft hover:bg-gray-800">View Projects</a>
+            <a href="/Krupa_Portfolio/resume.pdf" target="_blank" className="px-6 py-3 bg-gray-700 text-white rounded-2xl border border-black shadow-soft hover:bg-gray-800">Download Resume</a>
           </div>
         </div>
       </section>
