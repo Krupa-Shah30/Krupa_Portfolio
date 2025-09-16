@@ -1,6 +1,6 @@
 
 "use client";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const socials = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/krupa-n-shah/' },
@@ -8,39 +8,39 @@ const socials = [
   { label: 'Tableau', href: 'https://public.tableau.com/app/profile/krupa.nilesh.shah/vizzes' }
 ];
 
-const featuredProjects = [
-  {
-    title: 'Video RAG for QA on Videos',
-    summary: 'Multimodal RAG pipeline for question answering on local videos.',
-    tags: ['ML', 'RAG', 'Multimodal'],
-    repo: 'https://github.com/Krupa-Shah30/video-rag',
-    image: '/images/projects/video-rag/hero.png',
-    stack: ['Python', 'Whisper', 'CLIP', 'Qdrant', 'React', 'FastAPI'],
-  },
-  {
-    title: 'Agentic IVR (Twilio + MCP + Postgres + Milvus)',
-    summary: 'Agentic IVR system for data routing, SLAs, and compliance.',
-    tags: ['Analytics', 'IVR', 'Compliance'],
-    repo: '',
-    image: '/images/projects/agentic-ivr/hero.png',
-    stack: ['Twilio', 'MCP', 'Postgres', 'Milvus'],
-  },
-  {
-    title: 'Treadwell Tire-Life Prediction (Discount Tire)',
-    summary: 'Regression/GBM model for tire life prediction and business impact.',
-    tags: ['ML', 'Regression', 'GBM'],
-    repo: '',
-    image: '/images/projects/treadwell-tire/hero.png',
-    stack: ['Python', 'GBM', 'Feature Engineering'],
-  },
-];
+// const featuredProjects = [
+//   {
+//     title: 'Video RAG for QA on Videos',
+//     summary: 'Multimodal RAG pipeline for question answering on local videos.',
+//     tags: ['ML', 'RAG', 'Multimodal'],
+//     repo: 'https://github.com/Krupa-Shah30/video-rag',
+//     image: '/images/projects/video-rag/hero.png',
+//     stack: ['Python', 'Whisper', 'CLIP', 'Qdrant', 'React', 'FastAPI'],
+//   },
+//   {
+//     title: 'Agentic IVR (Twilio + MCP + Postgres + Milvus)',
+//     summary: 'Agentic IVR system for data routing, SLAs, and compliance.',
+//     tags: ['Analytics', 'IVR', 'Compliance'],
+//     repo: '',
+//     image: '/images/projects/agentic-ivr/hero.png',
+//     stack: ['Twilio', 'MCP', 'Postgres', 'Milvus'],
+//   },
+//   {
+//     title: 'Treadwell Tire-Life Prediction (Discount Tire)',
+//     summary: 'Regression/GBM model for tire life prediction and business impact.',
+//     tags: ['ML', 'Regression', 'GBM'],
+//     repo: '',
+//     image: '/images/projects/treadwell-tire/hero.png',
+//     stack: ['Python', 'GBM', 'Feature Engineering'],
+//   },
+// ];
 
 export default function HomePage() {
-  const [showIntro, setShowIntro] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => setShowIntro(false), 1800);
-    return () => clearTimeout(timer);
-  }, []);
+  // const [showIntro, setShowIntro] = useState(true);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => setShowIntro(false), 1800);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   // Work experiences data
   const workExperiences = [

@@ -1,6 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "plugins": ["@typescript-eslint"],
+  "ignorePatterns": ["content/**/*.mdx", "out/**", ".next/**"],
   "rules": {
     "react/no-unescaped-entities": "off",
     "@typescript-eslint/no-unused-vars": "warn",
