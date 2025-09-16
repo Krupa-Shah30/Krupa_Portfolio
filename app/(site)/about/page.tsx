@@ -5,7 +5,7 @@ export default function AboutPage() {
         <h1 className="text-4xl font-extrabold mb-6 text-gray-800 dark:text-gray-200">About Me</h1>
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-            I'm a passionate Data Analyst and aspiring Data Scientist with a Master's in Information Systems 
+            I&apos;m a passionate Data Analyst and aspiring Data Scientist with a Master&apos;s in Information Systems 
             from the University of Maryland. I love solving complex problems with data and building systems 
             that make a real impact.
           </p>
@@ -29,7 +29,7 @@ export default function AboutPage() {
           </blockquote>
 
           <p className="text-gray-700 dark:text-gray-300">
-            I'm excited for the conversations, projects, and opportunities that lie ahead on this journey!
+            I&apos;m excited for the conversations, projects, and opportunities that lie ahead on this journey!
           </p>
         </div>
       </section>

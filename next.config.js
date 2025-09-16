@@ -4,9 +4,15 @@ const nextConfig = {
     mdxRs: true,
   },
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  output: 'export',
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  distDir: 'out',
   images: {
-    domains: ['localhost'],
+    unoptimized: true,
   },
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/Krupa_Portfolio' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/Krupa_Portfolio' : '',
   webpack: (config) => {
     config.resolve.fallback = {
       ...config.resolve.fallback,
