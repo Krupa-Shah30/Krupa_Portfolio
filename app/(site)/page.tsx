@@ -172,7 +172,7 @@ export default function HomePage() {
 
         {/* Where I've Worked Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-primary flex items-center"><span className="text-red-400 mr-2">02.</span> Where I’ve Worked</h2>
+          <h2 className="text-2xl font-bold mb-6 text-primary flex items-center"><span className="text-red-400 mr-2"></span> Where I’ve Worked</h2>
           <div className="flex flex-col md:flex-row gap-8">
             {/* Vertical Tabs */}
             <div className="flex md:flex-col gap-2 md:gap-4 md:w-56">

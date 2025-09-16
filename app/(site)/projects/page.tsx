@@ -16,7 +16,7 @@ const allProjects = [
 			"Flask/Streamlit",
 		],
 		tags: ["AI", "NLP", "Video", "RAG"],
-		github: "https://github.com/krupashah/video-qa-system",
+		github: "https://github.com/Krupa-Shah30/CHat-User-Interface",
 	},
 	{
 		title: "Agentic IVR Experiments (IVR-2)",
@@ -24,7 +24,7 @@ const allProjects = [
 			"Built experimental analytics and routing components for IVR systems, potentially in banking or FAQ-style environments. Includes intent detection workflows and usage reporting.",
 		stack: ["Python", "AWS", "Twilio", "pandas", "SQL", "streamlit"],
 		tags: ["IVR", "Analytics", "Routing", "Finance"],
-		github: "https://github.com/krupashah/agentic-ivr",
+		// github: "https://github.com/Krupa-Shah30/agentic-ivr",
 	},
 	{
 		title: "User Engagement & Shopping Behavior Analysis",
@@ -32,7 +32,7 @@ const allProjects = [
 			"An exploratory analytics project for merchandise websites. Analyzes user sessions, navigation flows, and demographics to distill insights into conversion behavior.",
 		stack: ["Python", "pandas", "Jupyter", "matplotlib", "seaborn", "scikit-learn"],
 		tags: ["User Behavior", "E-commerce", "Data Analysis"],
-		github: "https://github.com/krupashah/shopping-behavior-analysis",
+		github: "https://github.com/Krupa-Shah30/shopping-behavior-analysis",
 	},
 	{
 		title: "UniRank",
@@ -40,7 +40,7 @@ const allProjects = [
 			"Designed a small-scale ranking database to model university comparisons and selection criteria—great for analysts or counselors making data-driven decisions.",
 		stack: ["SQL", "PostgreSQL/SQLite", "Python", "bash"],
 		tags: ["Database", "Ranking", "Education"],
-		github: "https://github.com/krupashah/unirank",
+		github: "https://github.com/Krupa-Shah30/unirank",
 	},
 	{
 		title: "Toyota-TechTurtle",
@@ -53,85 +53,78 @@ const allProjects = [
 			"IoT design patterns",
 			"README documentation",
 		],
-		github: "https://github.com/krupashah/toyota-techturtle",
+		github: "https://github.com/Krupa-Shah30/toyota-techturtle",
 	},
 	{
 		title: "Student-Profile-Evaluator",
 		description:
 			"Machine learning model that forecasts CGPA and evaluates academic profiles—useful for career planning and early detection of academic risks.",
 		stack: ["Python", "pandas", "scikit-learn", "Jupyter"],
-		github: "https://github.com/krupashah/student-profile-evaluator",
+		github: "https://github.com/Krupa-Shah30/Student-Profile-Evaluator",
 	},
 	{
 		title: "Secure-Chain",
 		description:
 			"Prototype for cross-border remittance leveraging Ethereum smart contracts. Emphasizes compliance, inclusion, and dispute resolution through decentralized finance.",
 		stack: ["Solidity", "Truffle/Hardhat", "Ganache", "MetaMask", "JavaScript"],
-		github: "https://github.com/krupashah/secure-chain",
+		github: "https://github.com/Krupa-Shah30/secure-chain",
 	},
 	{
 		title: "Route-Optimize-Solutions",
 		description:
 			"A generative AI-powered flight itinerary optimizer that suggests efficient routes based on input constraints—includes conversational chatbot prototype.",
 		stack: ["Python", "airline data APIs", "LangChain/OpenAI", "Streamlit/gradio"],
-		github: "https://github.com/krupashah/route-optimize-solutions",
+		github: "https://github.com/Krupa-Shah30/route-optimize-solutions",
 	},
 	{
 		title: "Optimization & Technical Trading Strategies",
 		description:
 			"A quant-focussed project exploring trading strategies via backtesting and technical indicators with clear HTML/PDF outputs.",
 		stack: ["Python", "pandas", "TA-Lib/custom", "backtesting frameworks", "Jinja2"],
-		github: "https://github.com/krupashah/optimization-technical-trading-strategies",
+		github: "https://github.com/Krupa-Shah30/Optimization-and-Technical-Trading-Strategies",
 	},
 	{
 		title: "Movie-Analysis",
 		description:
 			"Used PySpark to analyze movie datasets, determine success factors, and apply classification/clustering algorithms for predictive insights.",
 		stack: ["PySpark", "AWS EMR/Databricks", "scikit-learn", "matplotlib/seaborn"],
-		github: "https://github.com/krupashah/movie-analysis",
+		github: "https://github.com/Krupa-Shah30/movie-analysis",
 	},
 	{
 		title: "The-Missing-Migrants",
 		description:
 			"Exploratory analysis of global migration incidents—identifies dangerous routes and socioeconomic trends using data visualization.",
 		stack: ["Python", "pandas", "geopandas", "matplotlib", "plotly/folium"],
-		github: "https://github.com/krupashah/the-missing-migrants",
+		github: "https://github.com/Krupa-Shah30/the-missing-migrants",
 	},
 	{
-		title: "Kickstarter-Analysis, Missing Migrants and Route Optimization analysis for now",
+		title: "Kickstarter-Analysis",
 		description:
 			"Built predictive models to estimate funding success using historical project features—covers cleaning, feature engineering, and classification.",
 		stack: ["R", "tidyverse", "logistic regression/tree-based models", "RMarkdown"],
-		github: "https://github.com/krupashah/kickstarter-analysis",
+		github: "https://github.com/Krupa-Shah30/kickstarter-analysis",
 	},
 	{
 		title: "Forecasting & Load Management",
 		description:
 			"Time-series model to predict energy demand and inform load balancing strategies, supporting energy system optimization.",
 		stack: ["Python", "statsmodels/Prophet/scikit-learn", "Jupyter", "MAPE/RMSE"],
-		github: "https://github.com/krupashah/forecasting-load-management",
+		github: "https://github.com/Krupa-Shah30/Forecasting-and-Load-Management",
 	},
 	{
 		title: "Food-Inspection-Analysis",
 		description:
 			"Processed city-level inspection data to flag violations and build dashboards for risk tracking.",
 		stack: ["Python", "pandas", "numpy", "HTML/JS", "Flask/static site"],
-		github: "https://github.com/krupashah/food-inspection-analysis",
+		github: "https://github.com/Krupa-Shah30/food-inspection-analysis",
 	},
-	{
-		title: "Missing-Migrants (viz)",
-		description:
-			"Dedicated mapping project complementing 'The-Missing-Migrants'—focused on geographic scatter visuals for migration patterns.",
-		stack: ["Python", "geopandas", "matplotlib/plotly/folium"],
-		github: "https://github.com/krupashah/missing-migrants-viz",
-	},
-	{
-		title: "Speech-EmotionRecognition",
-		description:
-			"Experimented with detecting emotions from audio using classic feature extraction + ML model workflows.",
-		stack: ["Python", "librosa", "scikit-learn", "Jupyter"],
-		github: "https://github.com/krupashah/speech-emotion-recognition",
-	},
+	// {
+	// 	title: "Speech-EmotionRecognition",
+	// 	description:
+	// 		"Experimented with detecting emotions from audio using classic feature extraction + ML model workflows.",
+	// 	stack: ["Python", "librosa", "scikit-learn", "Jupyter"],
+	// 	github: "https://github.com/Krupa-Shah30/speech-emotion-recognition",
+	// },
 ];
 
 export default function ProjectsPage() {

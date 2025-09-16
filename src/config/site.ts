@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Kush (Krupa) Shah",
+  name: "Krupa Shah",
   roles: ["Data Scientist", "Analytics", "ML/AI"],
   socials: {
     github: "https://github.com/Krupa-Shah30",
@@ -14,7 +14,7 @@ export const siteConfig = {
     { label: "Education", href: "/education" },
     { label: "Skills", href: "/skills" },
     { label: "Projects", href: "/projects" },
-    { label: "Notes", href: "/notes" },
+    // { label: "Notes", href: "/notes" },
     { label: "Resume", href: "/resume" },
     { label: "Contact", href: "/contact" }
   ]
