@@ -1,15 +1,15 @@
 export const defaultSEO = {
-  title: "Kush (Krupa) Shah Portfolio",
-  description: "Portfolio of Kush (Krupa) Shah — Data Scientist, Analytics, ML/AI. Projects, experience, notes, and resume.",
+  title: "Krupa Shah Portfolio",
+  description: "Portfolio of Krupa Shah — Data Scientist, Analytics, ML/AI. Projects, experience, notes, and resume.",
   openGraph: {
-    title: "Kush (Krupa) Shah Portfolio",
-    description: "Portfolio of Kush (Krupa) Shah — Data Scientist, Analytics, ML/AI.",
+    title: "Krupa Shah Portfolio",
+    description: "Portfolio of Krupa Shah — Data Scientist, Analytics, ML/AI.",
     images: [
       {
         url: "/images/og-default.png",
         width: 1200,
         height: 630,
-        alt: "Kush (Krupa) Shah Portfolio OG Image"
+        alt: "Krupa Shah Portfolio OG Image"
       }
     ]
   },
@@ -27,7 +27,7 @@ type ProjectSEOInput = {
 
 export function getProjectSEO(project: ProjectSEOInput) {
   return {
-    title: `${project.title} | Kush (Krupa) Shah Portfolio`,
+    title: `${project.title} | Krupa Shah Portfolio`,
     description: project.summary,
     openGraph: {
       title: project.title,
