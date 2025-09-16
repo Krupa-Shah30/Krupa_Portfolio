@@ -108,7 +108,7 @@ export default function HomePage() {
     <main className="max-w-4xl mx-auto py-12 px-4">
       {/* Animated Hero Section */}
       <section className="mb-12 flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8">
-        <img src="/Krupa_Portfolio/Krupa.jpg" alt="Krupa Shah" className="w-48 h-64 object-cover rounded-lg shadow-lg mb-6 md:mb-0" />
+        <img src="/Krupa_Portfolio/Krupa.jpg" alt="Krupa Shah" className="w-64 h-80 object-cover rounded-lg shadow-lg mb-6 md:mb-0" />
         <div className="flex-1">
           <h1 className="text-5xl font-extrabold text-gray-800 dark:text-gray-200 mb-4 animate-fade-in">Hi, my name is</h1>
           <h2 className="text-4xl font-bold mb-2 text-gray-800 dark:text-gray-200">Krupa Shah.</h2>
@@ -125,7 +125,7 @@ export default function HomePage() {
           </p>
           <div className="flex gap-4 justify-center md:justify-start mb-6">
             {socials.map((item) => (
-              <a key={item.label} href={item.href} target="_blank" rel="noopener" className="text-base underline text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 focus-ring">
+              <a key={item.label} href={item.href} target="_blank" rel="noopener" className="text-base text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 focus-ring">
                 {item.label}
               </a>
             ))}
