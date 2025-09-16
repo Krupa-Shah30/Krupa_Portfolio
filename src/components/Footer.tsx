@@ -9,7 +9,7 @@ export default function Footer() {
         <Link href={siteConfig.socials.linkedin} target="_blank" aria-label="LinkedIn">LinkedIn</Link>
         <Link href={siteConfig.socials.tableau} target="_blank" aria-label="Tableau">Tableau</Link>
       </div>
-      <div>© {new Date().getFullYear()} Kush (Krupa) Shah. Built with Next.js, Tailwind, shadcn/ui.</div>
+      <div>© {new Date().getFullYear()} Krupa Shah. Built with Next.js, Tailwind, shadcn/ui.</div>
     </footer>
   );
 }
