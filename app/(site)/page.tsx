@@ -123,10 +123,11 @@ export default function HomePage() {
           <p className="mb-4 text-gray-700 dark:text-gray-300">
             I’m always excited to collaborate on innovative projects—whether that’s scaling pipelines, experimenting with AI, or creating dashboards that truly tell a story. If you’d like to build something impactful together, feel free to reach out!
           </p>
-          <div className="flex gap-4 justify-center md:justify-start mb-6">
+          <div className="flex gap-6 justify-center md:justify-start mb-6">
             {socials.map((item) => (
-              <a key={item.label} href={item.href} target="_blank" rel="noopener" className="text-base text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 focus-ring">
-                {item.label}
+              <a key={item.label} href={item.href} target="_blank" rel="noopener" className="group relative text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 ease-in-out">
+                <span className="relative z-10">{item.label}</span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-600 group-hover:w-full transition-all duration-300 ease-in-out"></span>
               </a>
             ))}
           </div>
